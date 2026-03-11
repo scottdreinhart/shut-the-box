@@ -13,7 +13,7 @@
 [![ESLint](https://img.shields.io/badge/ESLint-10-4B32C3?logo=eslint&logoColor=white)](https://github.com/eslint/eslint)
 [![Prettier](https://img.shields.io/badge/Prettier-3-F7B93E?logo=prettier&logoColor=black)](https://github.com/prettier/prettier)
 [![All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-scottdreinhart%2Fshut-the-box-181717?logo=github&logoColor=white)](https://github.com/scottdreinhart/shut-the-box)
+[![GitHub](https://img.shields.io/badge/GitHub-scottdreinhart%2Fshut--the--box-181717?logo=github&logoColor=white)](https://github.com/scottdreinhart/shut-the-box)
 
 Roll dice, flip numbered tiles to match the total; lowest remaining sum wins
 
