@@ -1,5 +1,8 @@
 /**
- * Organisms barrel export — top-level page components.
+ * Organisms barrel export — full feature components.
  */
 
-export { default as App } from './App'
+export { App } from './App'
+export { GameOver } from './GameOver'
+export { GamePlayBoard } from './GamePlayBoard'
+export { GameSetup } from './GameSetup'

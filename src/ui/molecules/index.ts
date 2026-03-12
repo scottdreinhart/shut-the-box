@@ -2,4 +2,6 @@
  * Molecules barrel export — composed UI components.
  */
 
-export {}
+export { PlayerStats } from './PlayerStats'
+export { ScoreBoard } from './ScoreBoard'
+export { TileGrid } from './TileGrid'

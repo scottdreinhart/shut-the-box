@@ -5,7 +5,8 @@
  * Usage: import { useTheme, useSoundEffects } from '@/app'
  */
 
-export * from './storageService'
+export { GameProvider, useGameContext } from './GameContext'
 export * from './haptics'
-export { ThemeProvider, useThemeContext } from './ThemeContext'
 export { SoundProvider, useSoundContext } from './SoundContext'
+export * from './storageService'
+export { ThemeProvider, useThemeContext } from './ThemeContext'

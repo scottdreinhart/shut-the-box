@@ -387,6 +387,15 @@ All games in this portfolio share the same React + Vite + TypeScript + CLEAN arc
 | **[Monchola](https://github.com/scottdreinhart/monchola)** | Traditional dice/board race game with capture mechanics | Similar — dice roll + board path + capture rules |
 | **[Rock Paper Scissors](https://github.com/scottdreinhart/rock-paper-scissors)** | Best-of-N rounds against the CPU with hand animations | Simpler — minimal state, animation-focused |
 | **[Minesweeper](https://github.com/scottdreinhart/minesweeper)** | Reveal cells on a minefield grid without detonating hidden mines | Moderately higher — flood-fill reveal + flag logic |
+| **[Pig](https://github.com/scottdreinhart/pig)** | A jeopardy dice game where players roll a single die to accumulate points, but lose all points for the turn if they roll a 1 | Simpler — single die, push-your-luck logic |
+| **[Farkle](https://github.com/scottdreinhart/farkle)** | A scoring game where players roll six dice to build combinations; failure to score on a roll results in a "farkle" and loss of turn points | Moderately higher — multi-dice combo scoring |
+| **[Cee-lo](https://github.com/scottdreinhart/cee-lo)** | A gambling game using three dice where players win by rolling specific combinations like 4-5-6 or triples | Similar — combo detection + round resolution |
+| **[Ship, Captain, and Crew](https://github.com/scottdreinhart/ship-captain-crew)** | A fast-paced game where players must roll a 6, 5, and 4 in sequence to qualify their remaining dice for scoring | Similar — sequential lock-in mechanic |
+| **[Liar's Dice](https://github.com/scottdreinhart/liars-dice)** | A bluffing game where players bid on the total number of dice of a certain value hidden under all players' cups | Higher — bluff AI + hidden information |
+| **[Bunco](https://github.com/scottdreinhart/bunco)** | A social game played in rounds where players earn points by rolling specific numbers matching the current round | Simpler — round-based target matching |
+| **[Mexico](https://github.com/scottdreinhart/mexico)** | A simple elimination game where players roll two dice and must match or beat the "leader's" score to stay in the round | Similar — elimination round logic |
+| **[Chō-han](https://github.com/scottdreinhart/cho-han)** | A traditional Japanese game where players bet on whether the sum of two hidden dice is even (Chō) or odd (Han) | Simpler — binary bet + reveal animation |
+| **[Chicago](https://github.com/scottdreinhart/chicago)** | An 11-round game where players score by rolling a sum that matches the specific target number for that round | Similar — round-target scoring system |
 
 ## Contributing
 

@@ -1,8 +1,27 @@
-export default function App() {
+import { GameProvider, useGameContext } from '@/app'
+import styles from './App.module.css'
+import { GameOver, GamePlayBoard, GameSetup } from './index'
+
+function GameContent() {
+  const { state } = useGameContext()
+
+  if (state.gamePhase === 'setup') {
+    return <GameSetup />
+  }
+
+  if (state.gamePhase === 'gameOver') {
+    return <GameOver winner={state.winner} players={state.players} />
+  }
+
+  return <GamePlayBoard />
+}
+
+export function App() {
   return (
-    <div className="app">
-      <h1>Shut the Box</h1>
-      <p>Roll dice, flip numbered tiles to match the total; lowest remaining sum wins</p>
-    </div>
+    <GameProvider>
+      <div className={styles.app}>
+        <GameContent />
+      </div>
+    </GameProvider>
   )
 }
