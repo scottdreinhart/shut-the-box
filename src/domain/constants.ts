@@ -2,11 +2,14 @@
  * Game constants — magic numbers & config extracted to a single source of truth.
  */
 
+import type { GameStats } from './types'
+
 export const CPU_DELAY_MS = 400
 
 /**
  * Portfolio Game IDs — for future cross-project analytics and services.
  */
+
 export const PORTFOLIO_GAMES = {
   SHUT_THE_BOX: 'shut-the-box',
   TIC_TAC_TOE: 'tictactoe',
@@ -35,3 +38,10 @@ export const PORTFOLIO_GAMES = {
   CHO_HAN: 'cho-han',
   CHICAGO: 'chicago',
 } as const
+
+export const DEFAULT_STATS: GameStats = {
+  wins: 0,
+  losses: 0,
+  streak: 0,
+  bestStreak: 0,
+}

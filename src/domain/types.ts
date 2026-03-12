@@ -55,3 +55,10 @@ export interface ThemeSettings {
   mode: string
   colorblind: string
 }
+
+export interface GameStats {
+  wins: number
+  losses: number
+  streak: number
+  bestStreak: number
+}
