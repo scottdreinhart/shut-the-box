@@ -49,6 +49,7 @@
     "cap:run:ios": "npx cap run ios",
     "wasm:build": "node scripts/build-wasm.js",
     "wasm:build:debug": "node scripts/build-wasm.js --debug",
+    "check:input": "bash scripts/check-input-controls.sh",
     "prepare": "husky"
   },
   "dependencies": {
